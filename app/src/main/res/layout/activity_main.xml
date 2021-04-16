@@ -14,20 +14,11 @@
         tools:layout_editor_absoluteX="46dp"
         tools:layout_editor_absoluteY="130dp">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="MyCalc"
-            android:textAlignment="center"
-            android:textColor="#FF9800"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
         <EditText
             android:id="@+id/edResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
             android:clickable="true"
             android:editable="false"
             android:ems="10"
@@ -40,7 +31,8 @@
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -54,6 +46,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="AC"
                     android:textSize="24sp"
                     app:backgroundTint="#FF9800" />
@@ -64,6 +57,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="Sin"
                     android:textSize="18sp"
                     app:backgroundTint="#FF5722" />
@@ -74,20 +68,19 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="Cos"
                     android:textSize="18sp"
                     app:backgroundTint="#FF5722" />
 
                 <Button
                     android:id="@+id/btnDiv"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="4dp"
-                    android:layout_weight="25"
-                    android:background="#FFFFFF"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="/"
-                    android:textSize="24sp"
                     app:backgroundTint="#FF9800" />
+
             </TableRow>
 
             <TableRow
@@ -101,6 +94,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="7"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -111,6 +105,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="8"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -121,6 +116,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="9"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -131,6 +127,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="X"
                     android:textSize="24sp"
                     app:backgroundTint="#FF9800" />
@@ -147,6 +144,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="4"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -157,6 +155,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="5"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -167,6 +166,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="6"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -177,6 +177,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="-"
                     android:textSize="24sp"
                     app:backgroundTint="#FF9800" />
@@ -193,6 +194,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="1"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -203,6 +205,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="2"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -213,6 +216,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="3"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -223,6 +227,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="25"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="+"
                     android:textSize="24sp"
                     app:backgroundTint="#FF9800" />
@@ -240,6 +245,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="98"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="0"
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -250,6 +256,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="1"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="."
                     android:textSize="24sp"
                     app:backgroundTint="#4C4C4C" />
@@ -260,6 +267,7 @@
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
                     android:layout_weight="1"
+                    android:background="@drawable/round_shapen_btn"
                     android:text="="
                     android:textSize="24sp"
                     app:backgroundTint="#FF9800" />
